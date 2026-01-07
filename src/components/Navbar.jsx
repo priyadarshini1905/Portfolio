@@ -34,7 +34,7 @@ const Navbar = () => {
   return (
     <nav style={navStyles}>
       <div className="container" style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
-        <a href="#" style={{ fontSize: '1.5rem', fontWeight: '700', color: 'var(--accent)' }}>PRIYA.</a>
+        <a href="#" style={{ fontSize: '1.5rem', fontWeight: '700', color: 'var(--accent)' }}>PRIYA DARSHINIS</a>
         
         <div className="nav-links">
           {['About', 'Projects', 'Education', 'Contact'].map((item) => (
