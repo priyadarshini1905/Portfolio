@@ -34,12 +34,12 @@ const Navbar = () => {
   return (
     <nav style={navStyles}>
       <div className="container" style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
-        <a href="#" style={{ fontSize: '1.5rem', fontWeight: '700', color: 'var(--accent)' }}>PRIYA DARSHINIS</a>
-        
+        <a href="#" style={{ fontSize: '1.5rem', fontWeight: '700', color: 'var(--accent)' }}>PRIYA DARSHINI</a>
+
         <div className="nav-links">
           {['About', 'Projects', 'Education', 'Contact'].map((item) => (
-            <a 
-              key={item} 
+            <a
+              key={item}
               href={`#${item.toLowerCase()}`}
               style={linkStyles}
               onMouseEnter={(e) => e.target.style.color = 'var(--accent)'}

@@ -1,6 +1,7 @@
 import React from 'react';
-import { FaPython, FaJava, FaDatabase, FaBrain, FaGithub, FaRobot } from 'react-icons/fa';
-import { SiTensorflow, SiPandas, SiNumpy, SiPowerbi, SiMicrosoftexcel, SiN8n, SiMicrosoftazure, SiScikitlearn } from 'react-icons/si';
+import { FaPython, FaJava, FaDatabase, FaBrain, FaGithub, FaRobot, FaFileExcel, FaChartBar } from 'react-icons/fa';
+import { SiTensorflow, SiPandas, SiNumpy, SiN8N, SiScikitlearn } from 'react-icons/si';
+import { VscAzure } from 'react-icons/vsc';
 
 const skills = [
     {
@@ -24,11 +25,11 @@ const skills = [
     {
         category: "Tools & Platforms",
         items: [
-            { name: "PowerBI", icon: <SiPowerbi color="#F2C811" /> },
-            { name: "Excel", icon: <SiMicrosoftexcel color="#217346" /> },
-            { name: "N8N", icon: <SiN8n color="#EA4B71" /> },
+            { name: "PowerBI", icon: <FaChartBar color="#F2C811" /> },
+            { name: "Excel", icon: <FaFileExcel color="#217346" /> },
+            { name: "N8N", icon: <SiN8N color="#EA4B71" /> },
             { name: "GitHub", icon: <FaGithub color="#181717" /> },
-            { name: "Microsoft Azure", icon: <SiMicrosoftazure color="#0078D4" /> }
+            { name: "Azure", icon: <VscAzure color="#0078D4" /> }
         ]
     }
 ];
