@@ -1,4 +1,6 @@
 import React from 'react';
+import { FaLinkedin, FaGithub } from 'react-icons/fa';
+import { SiLeetcode } from 'react-icons/si';
 
 const Contact = () => {
     return (
@@ -13,29 +15,29 @@ const Contact = () => {
                     <a href="mailto:priyaramesh01948@gmail.com" className="btn" style={{ textTransform: 'none' }}>
                         priyaramesh01948@gmail.com
                     </a>
-                    <a href="tel:+917904436501" className="btn" style={{ background: 'var(--bg-secondary)', border: '1px solid var(--border)', color: 'var(--text-primary)' }}>
+                    <a href="tel:+917904436501" className="btn" style={{ textTransform: 'none' }}>
                         +91 7904436501
                     </a>
                 </div>
 
-                <div style={{ display: 'flex', justifyContent: 'center', gap: '1.5rem', marginBottom: '3rem' }}>
+                <div style={{ display: 'flex', justifyContent: 'center', gap: '2rem', marginBottom: '3rem' }}>
                     <a href="https://www.linkedin.com/in/priyadarshini2005" target="_blank" rel="noopener noreferrer"
-                        style={{ color: 'var(--text-secondary)', fontSize: '1.2rem', textDecoration: 'none', transition: 'color 0.3s' }}
-                        onMouseEnter={e => e.target.style.color = 'var(--accent)'}
+                        style={{ color: 'var(--text-secondary)', fontSize: '2rem', textDecoration: 'none', transition: 'color 0.3s' }}
+                        onMouseEnter={e => e.target.style.color = '#0077b5'}
                         onMouseLeave={e => e.target.style.color = 'var(--text-secondary)'}>
-                        LinkedIn
+                        <FaLinkedin />
                     </a>
                     <a href="https://leetcode.com/u/Priyaramesh19" target="_blank" rel="noopener noreferrer"
-                        style={{ color: 'var(--text-secondary)', fontSize: '1.2rem', textDecoration: 'none', transition: 'color 0.3s' }}
-                        onMouseEnter={e => e.target.style.color = 'var(--accent)'}
+                        style={{ color: 'var(--text-secondary)', fontSize: '2rem', textDecoration: 'none', transition: 'color 0.3s' }}
+                        onMouseEnter={e => e.target.style.color = '#FFA116'}
                         onMouseLeave={e => e.target.style.color = 'var(--text-secondary)'}>
-                        LeetCode
+                        <SiLeetcode />
                     </a>
                     <a href="https://github.com/priyadarshini1905" target="_blank" rel="noopener noreferrer"
-                        style={{ color: 'var(--text-secondary)', fontSize: '1.2rem', textDecoration: 'none', transition: 'color 0.3s' }}
+                        style={{ color: 'var(--text-secondary)', fontSize: '2rem', textDecoration: 'none', transition: 'color 0.3s' }}
                         onMouseEnter={e => e.target.style.color = 'var(--accent)'}
                         onMouseLeave={e => e.target.style.color = 'var(--text-secondary)'}>
-                        GitHub
+                        <FaGithub />
                     </a>
                 </div>
 
