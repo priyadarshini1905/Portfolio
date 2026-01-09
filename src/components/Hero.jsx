@@ -23,7 +23,7 @@ const Hero = () => {
                     </p>
 
                     <div style={{ display: 'flex', gap: '1rem' }}>
-                        <a href="/resume.pdf" download className="btn">Download Resume</a>
+                        <a href="/Users/priya/Desktop/port2.0/Priya Darshini R _ Resume.pdf" download className="btn">Download Resume</a>
                         <a href="#contact" className="btn" style={{ background: 'transparent', border: '1px solid var(--accent)', color: 'var(--accent)' }}>Contact Me</a>
                     </div>
                 </div>
