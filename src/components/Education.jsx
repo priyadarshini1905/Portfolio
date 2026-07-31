@@ -13,7 +13,7 @@ const Education = () => {
                         <p style={{ fontSize: '1.1rem', color: 'var(--text-secondary)' }}>K.L.N College of Engineering, Sivagangai</p>
                         <div style={{ display: 'flex', justifyContent: 'space-between', marginTop: '0.5rem', flexWrap: 'wrap' }}>
                             <span style={{ color: 'var(--accent)' }}>NOV 2022 - MAY 2026</span>
-                            <span style={{ fontWeight: 'bold' }}>CGPA: 8.0%</span>
+                            <span style={{ fontWeight: 'bold' }}>CGPA: 8.07%</span>
                         </div>
                     </div>
 

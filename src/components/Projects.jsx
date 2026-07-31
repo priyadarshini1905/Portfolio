@@ -2,6 +2,16 @@ import React from 'react';
 
 const projectsData = [
     {
+        title: "SmartBrowser – AI-Powered Browser Automation",
+        tech: "Python, LangChain, LangGraph, Playwright, Gradio, LLMs",
+        date: "MAR 2026",
+        points: [
+            "Developed an AI-driven system that executes natural language tasks on real websites using browser automation.",
+            "Integrated multimodal LLMs with Playwright for navigation, data extraction, and interaction workflows.",
+            "Implemented agent-based execution and deep research pipeline for structured information gathering and report generation."
+        ]
+    },
+    {
         title: "AI-Based Skin Disease Detection",
         tech: "Deep Learning, CNN, TensorFlow, Python",
         date: "OCT 2025",
